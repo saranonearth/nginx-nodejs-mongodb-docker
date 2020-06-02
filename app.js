@@ -22,7 +22,7 @@ app.get("/", async (req, res) => {
   const d = req.query.val || "custom-value";
   console.log("DATA TO ADD: ", d);
   const newData = new Data({
-    value: d,
+    data: d,
   });
 
   await newData.save();

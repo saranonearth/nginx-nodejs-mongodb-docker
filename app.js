@@ -1,6 +1,6 @@
 const app = require("express")();
 const mongoose = require("mongoose");
-const PORT = process.env.PORT || 5230;
+const PORT = process.env.PORT || 5000;
 
 const Data = require("./models/Data");
 
